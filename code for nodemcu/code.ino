@@ -1,15 +1,15 @@
-#define BLYNK_TEMPLATE_ID "TMPL6rboYfNoI"
-#define BLYNK_TEMPLATE_NAME "Fan IoT"
-#define BLYNK_AUTH_TOKEN "nR6uqcqGmfoyHcAxwaiih-EaOLaoTuEL"
+#define BLYNK_TEMPLATE_ID "place your template id Blynk"
+#define BLYNK_TEMPLATE_NAME "place your name of template Blynk"
+#define BLYNK_AUTH_TOKEN "place yout auth token blynk"
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 #include <DHT22.h>
 
 
-char ssid[] = "Desember kita";
-char pass[] = "235689124";
+char ssid[] = "SSID";
+char pass[] = "PASSWORD";
 //define pin data
-#define data D2
+#define data D0
 
 bool relay = true;
 int pin = 7; 
